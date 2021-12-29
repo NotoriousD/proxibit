@@ -2,6 +2,7 @@
 
 .footer {
     padding: 70px 0;
+    background-color: #240983;
 
     &__list {
         display: flex;
@@ -56,8 +57,9 @@
     .sub-menu {
         margin: 0;
         padding: 0;
+        margin-top: 12px;
         li {
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
 
         a {

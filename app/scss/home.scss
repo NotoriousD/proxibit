@@ -42,8 +42,9 @@ body {
   &__controls {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 55px;
   }
 
   &__downloads {
@@ -737,7 +738,7 @@ body {
   }
 
   &__descr {
-    width: 50%;
+    width: 51%;
     position: relative;
 
     &:after {
@@ -757,8 +758,8 @@ body {
 
   &__title {
     font-weight: bold;
-    font-size: 51px;
-    line-height: 62px;
+    font-size: 48px;
+    line-height: 58px;
     text-align: right;
     color: #e54e3f;
     margin-bottom: 43px;
@@ -890,7 +891,7 @@ body {
   padding-bottom: 145px;
 
   .container {
-    max-width: 690px;
+    max-width: 800px;
   }
 
   &__title {
@@ -911,8 +912,9 @@ body {
   }
 
   &__descr {
-    width: 47%;
     color: $text-white;
+    width: 100%;
+    max-width: 330px;
   }
 
   p {
@@ -958,6 +960,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 58px;
+    width: 47%;
   }
 
   &__form-row {
@@ -1024,6 +1027,7 @@ body {
       color: $text-white;
       width: 100%;
       text-align: right;
+      min-height: 112px;
 
       &::placeholder {
         color: $text-white;
