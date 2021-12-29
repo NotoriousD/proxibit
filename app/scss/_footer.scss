@@ -1,0 +1,146 @@
+@import "vars";
+
+.footer {
+    padding: 70px 0;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 67px;
+    }
+
+    &__list2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin: 0;
+        padding: 0;
+        margin-right: 75px;
+        text-align: left;
+
+        li {
+            list-style-type: none;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: $text-white;
+            margin-bottom: 16px;
+        }
+
+        a {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: $text-white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+                color: $text-white;
+            }
+        }
+    }
+    .sub-menu {
+        margin: 0;
+        padding: 0;
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: $text-white;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__logo {
+        display: block;
+        margin-left: 61px;
+    }
+
+    &__info-descr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        a,
+        span {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: right;
+            color: #FFFFFF;
+            display: block;
+
+            &:hover {
+                text-decoration: none;
+                color: $text-white;
+            }
+        }
+
+        span {
+            margin-top: 15px;
+        }
+    }
+
+    &__sub {
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 35px;
+
+            li {
+                list-style-type: none;
+            }
+
+            a {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: right;
+                text-decoration-line: underline;
+                color: $text-white;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $text-white;
+                }
+            }
+        }
+    }
+
+    &__copy {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: $text-white;
+        opacity: 0.5;
+    }
+}

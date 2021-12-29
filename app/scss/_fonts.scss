@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("gilroy", "../fonts/Gilroy/Gilroy-Regular");
+@include font-face("gilroy", "../fonts/Gilroy/Gilroy-Bold", bold);
+@include font-face("gilroy", "../fonts/Gilroy/Gilroy-ExtraBold", 700);

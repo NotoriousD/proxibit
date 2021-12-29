@@ -1,0 +1,17 @@
+$default-font: "gilroy", sans-serif;
+$accent: orange;
+$text: #494949;
+$text-white: #ffffff;
+$title: #3053FF;
+$elemGradient: linear-gradient(104.02deg, #AAC1FF 0%, #9BA6FF 42.71%, #B491FF 82.87%);
+$red: #EA6D60;
+$blue: #1B50E2;
+$main: #3053FF;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
